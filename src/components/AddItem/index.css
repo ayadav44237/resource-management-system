@@ -1,0 +1,77 @@
+.add-item {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+}
+
+.add-item__form {
+  width: 50%;
+}
+
+.add-item__heading {
+  text-align: center;
+}
+
+.field {
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.label {
+  color: #7e858e;
+  font-size: 1.4rem;
+}
+
+.select {
+  width: 40%;
+  margin-top: 0.5rem;
+  color: #7e858e;
+  border: 1px solid #d7dfe9;
+}
+
+.option {
+  width: 50%;
+}
+
+.input {
+  width: 70%;
+  margin-top: 0.5rem;
+  border: 1px solid #d7dfe9;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.textarea {
+  width: 70%;
+  height: 20rem;
+  resize: none;
+  outline: none;
+  border: 1px solid #d7dfe9;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+.add-item__submit {
+  background: #0b69ff;
+  color: #d7dfe9;
+  border-radius: 0.4rem;
+  width: 10rem;
+  height: 3.5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.add-item__right {
+  background-image: url("../../assets/images/bg-image.png");
+  width: 50%;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

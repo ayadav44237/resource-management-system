@@ -1,0 +1,24 @@
+.searchbar {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    position: relative;
+    font-size: 2rem;
+}
+
+.searchbar__icon {
+    position: absolute;
+    left: 0.5rem;
+    top: 30%;
+    height: 0.8rem;
+    width: 0.8rem;
+    
+}
+
+.searchbar__input {
+    width: 50%;
+    padding: 0.5rem;
+    padding-left: 1.8rem;
+    outline: none;
+    border: 0.1rem solid #D7DFE9;
+}

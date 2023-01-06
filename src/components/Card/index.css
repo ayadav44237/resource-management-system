@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #d7dfe9;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  font-size: clamp(1.5vw, 2rem, 2vw);
+}
+
+.card__header--logo {
+  width: 5rem;
+}
+
+.card__header--logo img {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid #d7dfe9;
+}
+
+.card__header--desc {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.card__header--category {
+  font-size: clamp(1.3vw, 1.3rem, 2vw);
+  color: #7e858e;
+}
+
+.card__details {
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(1vw, 1rem, 1.5vw);
+  color: #7e858e;
+}
+
+.card__details--link {
+  text-decoration: none;
+  margin: 1rem 0;
+  color: #0b69ff;
+}
